@@ -29,8 +29,8 @@ body{
     padding: 20px;
 }
 #top_menu{
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: black;
 }
 #top_menu li{
     display: inline-block;
@@ -42,13 +42,26 @@ body{
     float: left;
     width: 660px;
     margin: 30px; 
-    overflow: hidden;
+    
 }
-#side_news{
+#side_bar{
     float:left;
     width: 220px;
     margin: 20px 0px;
     padding: 30px;
     background-color: #66CCCC;
     
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: #898989;
+}
+a:active{
+    color: white;
+    background-color: black;
 }

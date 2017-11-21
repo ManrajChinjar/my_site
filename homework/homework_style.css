@@ -10,6 +10,9 @@ h1 {
 h2 {
     font: bold 14px Tahoma;
 }
+p{
+    font: 14px Tahoma;
+}
 
 /* header, section, footer, aside, nav, article, hgroup{
     display: block;
@@ -19,44 +22,36 @@ body {
     text-align: center;
 }
 
-#big_wrapper {
+#big_wrapper_homework {
     border: 1px solid black;
     width: 1000px;
     margin: 20px auto;
     text-align: left;
 }
 
-#top_header {
+#top_header_homework {
     background-color: yellow;
     border: 1px solid blue;
     padding: 20px;
 }
 
-#top_menu {
+#top_menu_homework {
     background-color: white;
     color: black;
 }
 
-#top_menu li {
+#top_menu_homework li {
     display: inline-block;
     list-style: none;
     padding: 5px;
     font: bold 14px Tahoma;
 }
 
-#main_section {
+#main_section_homework {
     float: left;
     width: 660px;
     margin: 30px;
-
-}
-
-#side_bar {
-    float: left;
-    width: 220px;
-    margin: 20px 0px;
-    padding: 30px;
-    background-color: #66CCCC;
+    text-align:left;
 
 }
 

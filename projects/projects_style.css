@@ -10,10 +10,10 @@ h1 {
 h2 {
     font: bold 14px Tahoma;
 }
-p{
+
+p {
     font: 14px Tahoma;
 }
-
 /* header, section, footer, aside, nav, article, hgroup{
     display: block;
 } */
@@ -22,51 +22,43 @@ body {
     text-align: center;
 }
 
-#big_wrapper_homework {
+#big_wrapper_projects {
     border: 1px solid black;
     width: 1000px;
     margin: 20px auto;
     text-align: left;
 }
-
-#top_header_homework {
+#big_header_projects {
     background-color: yellow;
     border: 1px solid blue;
     padding: 20px;
 }
-
-#top_menu_homework {
+#top_menu_projects {
     background-color: white;
     color: black;
 }
-
-#top_menu_homework li {
+#top_menu_projects li {
     display: inline-block;
     list-style: none;
     padding: 5px;
     font: bold 14px Tahoma;
 }
-
-#main_section_homework {
+#main_section_projects {
     float: left;
     width: 660px;
     margin: 30px;
-    text-align:left;
-
+    text-align: left;
 }
 
 a:link {
     color: black;
 }
-
 a:visited {
     color: black;
 }
-
 a:hover {
     color: #898989;
 }
 a.selected {
     color: #2D96FF;
-    
 }

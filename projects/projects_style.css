@@ -49,6 +49,19 @@ body {
     margin: 30px;
     text-align: left;
 }
+hr {
+    clear: both;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc
+}
+#bottom_footer {
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
 
 a:link {
     color: black;

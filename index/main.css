@@ -10,7 +10,8 @@ h1 {
 h2 {
     font: bold 14px Tahoma;
 }
-p{
+
+p {
     font: 14px Tahoma;
 }
 
@@ -62,6 +63,23 @@ body {
     background-color: #66CCCC;
 
 }
+
+hr {
+    clear: both;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc
+}
+#bottom_footer {
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
 
 a:link {
     color: black;

@@ -14,49 +14,51 @@ h2 {
 p {
     font: 14px Tahoma;
 }
-/* header, section, footer, aside, nav, article, hgroup{
-    display: block;
-} */
 
-body {
+body { 
     text-align: center;
 }
 
-#big_wrapper_projects {
+#big_wrapper_review_index {
     border: 1px solid black;
     width: 1000px;
     margin: 20px auto;
-    text-align: left;
+    text-align: left
 }
-#big_header_projects {
+
+#top_header_review_index {
     background-color: yellow;
     border: 1px solid blue;
     padding: 20px;
 }
-#top_menu_projects {
+
+#top_menu_review_index {
     background-color: white;
     color: black;
 }
-#top_menu_projects li {
+
+#top_menu_review_index li {
     display: inline-block;
     list-style: none;
     padding: 5px;
-    font: bold 14px Tahoma;
+    font: bold;
 }
-#main_section_projects {
+
+#main_section_review_index {
     float: left;
-    width: 660px;
+    width: 940px;
     margin: 30px;
-    text-align: left;
 }
+
 hr {
     clear: both;
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc
+    border-top: 1px solid #ccc;
 }
-#bottom_footer {
+
+#bottom_footer_review_index {
     margin: auto;
     width: 1000px;
     text-align: center;
@@ -64,22 +66,23 @@ hr {
 }
 
 a:link {
-    text-decoration: none;
     color: black;
-}
-a:visited {
     text-decoration: none;
-    color: black;
-}
-a:hover {
-    text-decoration: none;
-    color: #898989;
-}
-a.selected {
-    text-decoration: none;
-    color: #2D96FF;
 }
 
-a: {
+a:visited {
+    color: black;
     text-decoration: none;
 }
+
+a:hover {
+    color: #898989;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: black;
+    text-decoration: none
+}
+

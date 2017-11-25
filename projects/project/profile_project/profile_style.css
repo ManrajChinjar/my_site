@@ -19,32 +19,32 @@ body {
     text-align: center;
 }
 
-#big_wrapper_review_index {
+#big_wrapper_profile_index {
     border: 1px solid black;
     width: 1000px;
     margin: 20px auto;
-    text-align: left
+    text-align: left;
 }
 
-#top_header_review_index {
+#top_header_profile_index {
     background-color: yellow;
     border: 1px solid blue;
     padding: 20px;
 }
 
-#top_menu_review_index {
+#top_menu_profile_index {
     background-color: white;
     color: black;
 }
 
-#top_menu_review_index li {
+#top_menu_profile_index li {
     display: inline-block;
     list-style: none;
     padding: 5px;
-    font: bold;
+    font: bold 14px Tahoma;
 }
 
-#main_section_review_index {
+#main_section_profile_index {
     float: left;
     width: 940px;
     margin: 30px;
@@ -58,12 +58,26 @@ hr {
     border-top: 1px solid #ccc;
 }
 
-#bottom_footer_review_index {
+#bottom_footer_profile_index {
     margin: auto;
     width: 1000px;
     text-align: center;
     padding: 20px;
 }
+
+#title_tag {
+    font: bold 40px Tahoma;
+    text-align: center;
+}
+
+#subtitle_tag {
+    font: bold 20px Tahoma;
+}
+
+#footer_articles p{
+    font: bold 10px Tahoma;
+}
+
 
 a:link {
     color: black;

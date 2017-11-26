@@ -15,7 +15,7 @@ p {
     font: 14px Tahoma;
 }
 
-body { 
+body {
     text-align: center;
 }
 
@@ -74,7 +74,7 @@ hr {
     font: bold 20px Tahoma;
 }
 
-#footer_articles p{
+#footer_articles p {
     font: bold 10px Tahoma;
 }
 
@@ -85,8 +85,9 @@ hr {
 
 #button1 {
     float: left;
-    margin-left: 25px ;
+    margin-left: 25px;
 }
+
 #button2 {
     float: right;
     margin-right: 25px;
@@ -107,6 +108,7 @@ hr {
     -moz-box-shadow: 6px 6px 5px #999;
     -webkit-box-shadow: 6px 6px 5px #999;
 }
+
 #link_r6:hover {
     background-color: #6CCCFA;
     border: 1px solid #6CCCFA;
@@ -126,7 +128,8 @@ hr {
     -moz-box-shadow: 6px 6px 5px #999;
     -webkit-box-shadow: 6px 6px 5px #999;
 }
-#link_r6_esl:hover{
+
+#link_r6_esl:hover {
     background-color: #6CCCFA;
     border: 1px solid #6CCCFA;
 }
@@ -151,4 +154,3 @@ a:active {
     background-color: black;
     text-decoration: none
 }
-

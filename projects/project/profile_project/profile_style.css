@@ -78,6 +78,58 @@ hr {
     font: bold 10px Tahoma;
 }
 
+#buttons {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#button1 {
+    float: left;
+    margin-left: 25px ;
+}
+#button2 {
+    float: right;
+    margin-right: 25px;
+}
+
+
+#link_r6 {
+    margin: 10px 0px;
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #3366cc;
+    color: #fff;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+    -moz-box-shadow: 6px 6px 5px #999;
+    -webkit-box-shadow: 6px 6px 5px #999;
+}
+#link_r6:hover {
+    background-color: #6CCCFA;
+    border: 1px solid #6CCCFA;
+}
+
+#link_r6_esl {
+    margin: 10px 0px;
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #3366cc;
+    color: #fff;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+    -moz-box-shadow: 6px 6px 5px #999;
+    -webkit-box-shadow: 6px 6px 5px #999;
+}
+#link_r6_esl:hover{
+    background-color: #6CCCFA;
+    border: 1px solid #6CCCFA;
+}
 
 a:link {
     color: black;

@@ -134,6 +134,11 @@ hr {
     border: 1px solid #6CCCFA;
 }
 
+img.rainbow_wallpaper {
+    width: 370px;
+    float: right;
+}
+
 a:link {
     color: black;
     text-decoration: none;
